@@ -11,7 +11,7 @@ using namespace std;
 char matrix[3][3];
 int termino=0, jogada=0;
 char venceu=' ';
-//criando funções
+//criando funÃ§Ãµes
 //
 void iniciaPrograma();
 
@@ -72,7 +72,7 @@ int contadorEmpates = 0;
 	        matrix[x-1][y-1]='X'; //caso o usuario digite com 1, corrigi o valor e continua funcionando
 	    }else
 	    {
-	        cout<<"\n ====POR FAVOR DIGITE UMA POSIÇÃO VALIDA!====";
+	        cout<<"\n ====POR FAVOR DIGITE UMA POSIÃ‡ÃƒO VALIDA!====";
 	        preencherPosicao();
 	    }           
 	}
@@ -384,7 +384,7 @@ void testando()
                                fimDoJogo();          
                }   
                // teste sedeu velha
-               if ((jogada==4)&&(venceu==' '))
+               if ((jogada==5)&&(venceu==' '))
                {
                			system("cls");
 		               mostrarJogoDaVelha();
@@ -442,7 +442,7 @@ void movimento()
 	        matrix[x-1][y-1]='O'; //caso o usuario digite com 1, corrigi o valor e continua funcionando
 	    }else
 	    {
-	        cout<<"\n ====POR FAVOR DIGITE UMA POSIÇÃO VALIDA!====";
+	        cout<<"\n ====POR FAVOR DIGITE UMA POSIÃ‡ÃƒO VALIDA!====";
 	        preencherPosicao();
 	    }           
 
