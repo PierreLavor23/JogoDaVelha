@@ -384,7 +384,7 @@ void testando()
                                fimDoJogo();          
                }   
                // teste sedeu velha
-               if ((jogada==5)&&(venceu==' '))
+               if ((jogada==4)&&(venceu==' '))
                {
                			system("cls");
 		               mostrarJogoDaVelha();
